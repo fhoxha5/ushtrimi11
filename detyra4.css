@@ -1,0 +1,99 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.logoAndCatalog{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+}
+
+.catalog {
+    margin-left: 10px;
+    justify-content: space-between;
+    color: rgb(10, 10, 139);
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    list-style: none;
+}
+
+.bgPhoto {
+    display: flex;
+    background-image: url("hero.jpg");
+    background-size: 100% 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;    
+}
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img{
+    width: 350px;
+}
+
+.latestVideos {
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    margin-left: 21px;
+    margin-right: 22px;
+}
+
+.views_date {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 117);
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin: 15px;
+    background-color: darkcyan;
+}
+    
+.f{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    color: darkblue;
+}
+
+.ff{
+    max-width: 5%;
+}
+
+.footermain{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.footerleft{
+    max-width: 12%;
+}
+
+.numrat {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fundi{
+    display: flex;
+    text-align: right;
+    justify-content: center;
+}
